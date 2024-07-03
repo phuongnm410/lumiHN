@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.swiper-container {
+    height: 100%;
+    width: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    transition: transform 0.8s ease-in-out;
+}
+
+#page1 {
+    background-color: #ffcccb;
+}
+
+#page2 {
+    background-color: #add8e6;
+}
+
+#page3 {
+    background-color: #90ee90;
+}

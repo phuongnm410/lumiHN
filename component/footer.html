@@ -1,0 +1,30 @@
+<style>
+    .fadeIn.go {
+        -webkit-animation-name: fadeIn;
+        animation-name: fadeIn;
+    }
+
+    .fadeIn {
+        opacity: 0;
+    }
+    .animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+    .fixed-scroll-downs {
+        position: fixed;
+        transform: translateX(-50%);
+        bottom: 0;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 16px;
+        height: 60px;
+        width: 1px;
+        left: 50%;
+    }
+</style>
+<div class="fixed-scroll-downs b-static animated fadeIn show go"><span>scroll down</span>
+    <div class="scrollLine"></div>
+</div>
