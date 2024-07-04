@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     slideItem.forEach((index, item)=>{
         index.style.height = screenHeight +"px";
     })
+    document.querySelector("#myVideo").style.height =  screenHeight +"px";
 });
 
 //////
@@ -42,7 +43,6 @@ var swiper =new Swiper(".home_slider", {
 let hideTimeout;
 
 var myFullpage = new fullpage('#fullpage', {
-    sectionsColor: ['#ffcccb', '#add8e6', '#90ee90'],
     scrollOverflow: false,
     onLeave: function(origin, destination, direction){
         document.getElementById('arrow-container').style.opacity = 0; // Ẩn nút mũi tên khi cuộn
@@ -57,8 +57,47 @@ var myFullpage = new fullpage('#fullpage', {
         hideTimeout = setTimeout(() => {
             document.getElementById('arrow-container').style.opacity = 1;
             document.getElementById('header').style.opacity = 1;
-        }, 1500);
+        }, 1000);
 
 
     }
 });
+// suto playvideo
+
+// var tag = document.createElement('script');
+// tag.src = "https://www.youtube.com/iframe_api";
+// var firstScriptTag = document.getElementsByTagName('script')[0];
+// firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+// var player;
+
+// function onYouTubeIframeAPIReady() {
+//     player = new YT.Player('myVideo', {
+//         events: {
+//             'onReady': onPlayerReady
+//         }
+//     });
+// }
+
+// function onPlayerReady(event) {
+//     var iframe = document.getElementById('myVideo');
+
+//     var options = {
+//         root: null,
+//         rootMargin: '0px',
+//         threshold: 0.5 // 50% của video phải xuất hiện trong khung nhìn
+//     };
+
+//     var observer = new IntersectionObserver(function(entries, observer) {
+//         entries.forEach(function(entry) {
+//             if (entry.isIntersecting) {
+//                 console.log("vào view");
+//                 player.playVideo();
+//             } else {
+//                 player.pauseVideo();
+//             }
+//         });
+//     }, options);
+
+//     observer.observe(iframe);
+// }
