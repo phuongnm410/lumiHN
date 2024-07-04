@@ -1,99 +1,98 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Trang chủ</title>
     <link rel="stylesheet" type="text/css" href="/css/index.css">
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/swiper-bundle.min.css">
-
+    <link rel="stylesheet" type="text/css" href="/css/fullpage.min.css">
 </head>
+
 <body>
-    <div class="swiper-container">
+    <div id="header"></div> 
+    <div id="fullpage">
+        <div class="section" id="lumi-slider">
+            <div class="swiper home_slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide home_slider--item">
+                    <img src="./image/slider/banner.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide home_slider--item">
+                    <img src="./image/slider/banner1.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide home_slider--item">
+                    <img src="./image/slider/banner2.jpg" alt="">
+                  </div>
+                </div>
+                <!-- <div class="home_slider-pagination"></div> -->
+              </div>
+        </div>
+        <div class="section">
+            <!-- <video src="./image/videoplayback.mp4"></video> -->
+            <!-- <video poster="./image/slider/banner3.jpg" id="bgvid" playsinline="" loop="" muted="" class="custom-cursor-on-hover">
+                <source src="" type="video/mp4">
+            </video> -->
+            <video controls>
+                <source src="./image/videoplayback.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="section" >
+            <h1>Section3</h1>
+        </div>
+    </div>
+    <!-- <div class="fullPage swiper-container-MAIN">
         <div class="swiper-wrapper">
-            <div class="swiper-slide" id="page1" data-anchor="slide1">
-                <h1>Trang 1</h1>
+            <div class="swiper-slide" id="lumi-slider">
+
+                <div class="swiper home_slider">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide home_slider--item">
+                        <img src="./image/slider/banner.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide home_slider--item">
+                        <img src="./image/slider/banner1.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide home_slider--item">
+                        <img src="./image/slider/banner2.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="home_slider-pagination"></div>
+                  </div>
+
             </div>
-            <div class="swiper-slide" id="page2" data-anchor="slide2">
+            <div class="swiper-slide" id="lumi-video">
                 <h1>Trang 2</h1>
             </div>
-            <div class="swiper-slide" id="page3" data-anchor="slide3">
+            <div class="swiper-slide" id="lumi-tongquan">
                 <h1>Trang 3</h1>
             </div>
-        </div>
-    </div>
-    <div class="nav">
-        <a href="#slide1">Trang 1</a>
-        <a href="#slide2">Trang 2</a>
-        <a href="#slide3">Trang 3</a>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-  
-    <!-- <div id="header"></div>  -->
-    <!-- <main> -->
-        <!-- <div class="fullPage swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide" id="lumi-slider">
-                    
-                </div>
-                <div class="swiper-slide" id="lumi-video">
-                    
-                </div>
-                <div class="swiper-slide" id="lumi-tongquan">
-                    
-                </div>
-                <div class="swiper-slide" id="lumi-vitri">
-                    
-                </div>
-                <div class="swiper-slide" id="lumi-tienich">
-                    
-                </div>
-                <div class="swiper-slide" id="lumi-matbang">
-                    
-                </div>
-                <div class="swiper-slide" id="lumi-loisong">
-                    
-                </div>
-                <div class="swiper-slide" id="lumi-doitac">
-                    
-                </div>
-                <div class="swiper-slide" id="lumi-thuvien">
-                    
-                </div>
+            <div class="swiper-slide" id="lumi-vitri">
+                <h1>Trang 4</h1>
+            </div>
+            <div class="swiper-slide" id="lumi-tienich">
+                <h1>Trang 5</h1>
+            </div>
+            <div class="swiper-slide" id="lumi-matbang">
+                <h1>Trang 6</h1>
+            </div>
+            <div class="swiper-slide" id="lumi-loisong">
+                <h1>Trang 7</h1>
+            </div>
+            <div class="swiper-slide" id="lumi-doitac">
+                <h1>Trang 8</h1>
+            </div>
+            <div class="swiper-slide" id="lumi-thuvien">
+                <h1>Trang 9</h1>
+            </div>
 
-            </div>
-        </div> -->
-        <!-- <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide" id="page1" data-anchor="slide1">
-                    <h1>Trang 1</h1>
-                </div>
-                <div class="swiper-slide" id="page2" data-anchor="slide2">
-                    <h1>Trang 2</h1>
-                </div>
-                <div class="swiper-slide" id="page3" data-anchor="slide3">
-                    <h1>Trang 3</h1>
-                </div>
-            </div>
         </div>
-    </main> -->
-    <!-- <div id="footer"></div> -->
+    </div> -->
+    <div id="footer"></div>
 </body>
+
 </html>
-<script>
-    var swiper = new Swiper('.swiper-container', {
-        direction: 'vertical',
-        mousewheel: true,
-        speed: 1000,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        hashNavigation: {
-            watchState: true,
-        },
-        effect: 'slide', // You can also use 'fade', 'cube', 'coverflow', 'flip'
-    });
-</script>
-<script  src="./js/swiper-bundle.min.js"></script>
-<script  src="./js/bootstrap.bundle.min.js"></script>
-<script  type="module" src="./js/index.js"></script>
+<script src="./js/swiper-bundle.min.js"></script>
+<script src="./js/fullpage.min.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script type="module" src="./js/index.js"></script>
