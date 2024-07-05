@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body, html {
   margin: 0;
   padding: 0;
@@ -22,6 +23,10 @@ body, html {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+#lumi-slider {
+  color: #FFF;
 }
 
 h1 {
@@ -61,6 +66,21 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+iframe#myVideo video {
+  width: 100%;
+}
+
+a, .nav-link, .nav-item {
+  color: inherit !important; /* Sử dụng màu của phần tử cha */
+  text-decoration: none !important; /* Loại bỏ gạch chân */
+}
+
+/* Thêm kiểu khi hover nếu cần */
+a:hover, .nav-link:hover, .nav-item:hover {
+  color: inherit !important; /* Giữ nguyên màu khi hover */
+  text-decoration: underline; /* Thêm gạch chân khi hover nếu muốn */
 }
 
 .tongquan {
@@ -113,4 +133,16 @@ h1 {
   top: 50%;
   transform: translateY(-50%);
   font-size: 20px;
+}
+
+.header-section-1 {
+  color: white;
+}
+
+.header-section-2 {
+  color: white;
+}
+
+.header-section-3 {
+  color: black;
 }/*# sourceMappingURL=index.css.map */

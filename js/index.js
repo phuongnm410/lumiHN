@@ -21,9 +21,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 var swiper =new Swiper(".home_slider", {
     loop: true,
-    // autoplay: {
-    //     delay: 5000
-    // },
+    autoplay: {
+        delay: 4000
+    },
     pagination: {
         el: ".home_slider-pagination",
         // dynamicBullets: true,
@@ -59,7 +59,13 @@ var myFullpage = new fullpage('#fullpage', {
             document.getElementById('header').style.opacity = 1;
         }, 1000);
 
-
+        if(destination.index == 0){
+            document.getElementById('header').className = 'header header-section-1';
+        } else if(destination.index == 1){
+            document.getElementById('header').className = 'header header-section-2';
+        } else if(destination.index == 2){
+            document.getElementById('header').className = 'header header-section-3';
+        }
     }
 });
 // suto playvideo

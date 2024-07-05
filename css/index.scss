@@ -4,10 +4,6 @@ body, html {
 	height: 100%;
 	overflow: hidden;
 }
-a {
-	&:hover {
-	}
-}
 .swiper-container-MAIN {
 	height: 100%;
 	width: 100%;
@@ -23,6 +19,9 @@ a {
 		height: 100%;
 		object-fit: cover;
 	}
+}
+#lumi-slider {
+	color: #FFF;
 }
 h1 {
 	font-size: 6em;
@@ -60,7 +59,19 @@ h1 {
 	justify-content: center;
 	align-items: center;
 }
+iframe#myVideo video {
+	width: 100%;
+}
+a, .nav-link {
+	color: inherit !important; /* Sử dụng màu của phần tử cha */
+	text-decoration: none !important; /* Loại bỏ gạch chân */
+}
 
+/* Thêm kiểu khi hover nếu cần */
+a:hover, .nav-link:hover {
+	color: inherit !important; /* Giữ nguyên màu khi hover */
+	text-decoration: underline; /* Thêm gạch chân khi hover nếu muốn */
+}
 .tongquan {
 	// color: #000;
 	font-family:  'Montserrat';
@@ -108,4 +119,15 @@ h1 {
     top: 50%;
     transform: translateY(-50%);
     font-size: 20px;
+}
+.header-section-1 {
+	color: white;
+}
+
+.header-section-2 {
+	color: white;
+}
+
+.header-section-3 {
+	color: black;
 }
