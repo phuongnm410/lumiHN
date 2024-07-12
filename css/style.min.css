@@ -2082,29 +2082,29 @@ body.menu-open #header .navbar-toggler .navbar-toggler-icon>span:nth-child(3) {
 }
 
 .slide-control .swiper-button-prev {
-    background-image: url(../images/arrow-prev.svg)
+    background-image: url(../image/arrow-prev.svg)
 }
 
 .slide-control .swiper-button-next {
-    background-image: url(../images/arrow-next.svg)
+    background-image: url(../image/arrow-next.svg)
 }
 
 .slide-control .swiper-button-next:hover {
     background-color: #fff;
-    background-image: url(../images/arrow-next-white.svg)
+    background-image: url(../image/arrow-next-white.svg)
 }
 
 .slide-control .swiper-button-prev:hover {
     background-color: #fff;
-    background-image: url(../images/arrow-prev-white.svg)
+    background-image: url(../image/arrow-prev-white.svg)
 }
 
 .slide-control.dark .swiper-button-prev {
-    background-image: url(../images/arrow-prev.svg)
+    background-image: url(../image/arrow-prev.svg)
 }
 
 .slide-control.dark .swiper-button-next {
-    background-image: url(../images/arrow-next.svg)
+    background-image: url(../image/arrow-next.svg)
 }
 
 .section-gallery .slide-control .swiper-button-next,
@@ -2743,7 +2743,7 @@ body.menu-open #header .navbar-toggler .navbar-toggler-icon>span:nth-child(3) {
 }
 
 #location .section-title {
-    color: #cfb082
+    color: #1888b2
 }
 
 #location .section-image {
@@ -3228,13 +3228,13 @@ body.menu-open #header .navbar-toggler .navbar-toggler-icon>span:nth-child(3) {
 
 .section-utilities-slide .slide-control .swiper-button-prev {
     border-color: #cfb082;
-    background-image: url(../images/arrow-prev.svg);
+    background-image: url(../image/arrow-prev.svg);
     position: static
 }
 
 .section-utilities-slide .slide-control .swiper-button-next {
     border-color: #cfb082;
-    background-image: url(../images/arrow-next.svg);
+    background-image: url(../image/arrow-next.svg);
     position: static
 }
 
@@ -3242,14 +3242,14 @@ body.menu-open #header .navbar-toggler .navbar-toggler-icon>span:nth-child(3) {
     background-color: #fff;
     border-color: #0e2d2c;
     color: #0e2d2c;
-    background-image: url(../images/arrow-prev-white.svg)
+    background-image: url(../image/arrow-prev-white.svg)
 }
 
 .section-utilities-slide .slide-control .swiper-button-next:hover {
     background-color: #fff;
     border-color: #0e2d2c;
     color: #0e2d2c;
-    background-image: url(../images/arrow-next-white.svg)
+    background-image: url(../image/arrow-next-white.svg)
 }
 
 .section-life:before {
@@ -6834,7 +6834,8 @@ body.light .chevron:before {
         transform-origin: bottom;
         transition-duration: 0s;
         opacity: 1;
-        background-color: #fff
+        /* background-color: #fff */
+        background-color: #e3eff4
     }
 
     .fp-custom .fp-section.up {
@@ -6854,5 +6855,11 @@ body.light .chevron:before {
         z-index: 8;
         opacity: 1;
         transform: translateY(0)
+    }
+    .fp-viewing-tiendo-thanhtoan {
+        color: #FFF !important;
+    }
+    .fp-viewing-lumi {
+        color: #FFF !important;
     }
 }
