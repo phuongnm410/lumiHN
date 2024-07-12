@@ -3,12 +3,14 @@ import { loadHTML } from "./loadHtml.js";
 document.addEventListener("DOMContentLoaded", function() {
     loadHTML("header", "../component/header.html");
     loadHTML("footer", "../component/footer.html");
+
     let screenHeight = window.innerHeight;;
     let slideItem = document.querySelectorAll(".home_slider .home_slider--item");
     slideItem.forEach((index, item)=>{
         index.style.height = screenHeight +"px";
     })
     document.querySelector("#myVideo").style.height =  screenHeight +"px";
+    
 });
 
 //////
