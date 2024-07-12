@@ -868,7 +868,7 @@ section {
 .section-title {
     font-size: 35px;
     line-height: 1.4em;
-    color: #0e2d2c;
+    color: #1888b2;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 25px;
@@ -1461,7 +1461,8 @@ body.menu-open .fixed-btn.bottom {
     font-size: 1rem;
     color: #fff;
     text-transform: uppercase;
-    margin-left: 3px
+    margin-left: 3px;
+    font-weight: 500;
 }
 
 .fixed-social-btn a.btn-360 {
@@ -1953,7 +1954,7 @@ body.menu-open #header .navbar-toggler .navbar-toggler-icon>span:nth-child(3) {
 .light:not(.left-dark):not(.menu-open) .fixed-social-btn a,
 .light:not(.left-dark):not(.menu-open) .fixed-social-btn a i,
 .light:not(.left-dark):not(.menu-open) .fixed-social-btn a span {
-    color: #0e2d2c
+    color: #0e2d2c !important
 }
 
 .light #header .header-right,
@@ -1967,7 +1968,7 @@ body.menu-open #header .navbar-toggler .navbar-toggler-icon>span:nth-child(3) {
 .light:not(.left-dark):not(.menu-open) .fixed-social-btn a,
 .light:not(.left-dark):not(.menu-open) .fixed-social-btn a i,
 .light:not(.left-dark):not(.menu-open) .fixed-social-btn a span {
-    color: #0e2d2c
+    color: #0e2d2c !important
 }
 
 .light:not(.left-dark):not(.menu-open) .fixed-social-btn a i {
@@ -2374,7 +2375,7 @@ body.menu-open #header .navbar-toggler .navbar-toggler-icon>span:nth-child(3) {
     top: 25%;
     width: 50%;
     height: 50%;
-    background: url(../images/icon-close.svg) center center/contain no-repeat
+    background: url(../image/icon-close.svg) center center/contain no-repeat
 }
 
 .modal-form-popup .close:hover {
@@ -2477,12 +2478,12 @@ body.menu-open #header .navbar-toggler .navbar-toggler-icon>span:nth-child(3) {
 }
 
 .modal-content .form-popup .overlay span:nth-child(2) {
-    background: url(../images/bg-icon.svg) center center/80% no-repeat;
+    background: url(../image/Logo-Lumi-Hanoi.png) center center/80% no-repeat;
     opacity: .05
 }
 
 .modal-content .form-popup .overlay span:nth-child(3) {
-    background: url(../images/bg-form.svg) center center/contain no-repeat
+    background: url(../image/vi-tri-lumi-hanoi.png) center center/contain no-repeat
 }
 
 .section-content-fitbottom {
@@ -2505,9 +2506,9 @@ body.menu-open #header .navbar-toggler .navbar-toggler-icon>span:nth-child(3) {
         fill: #fff
     }
 
-    .center-light #header .navbar-brand .normal {
+    /* .center-light #header .navbar-brand .normal {
         display: none
-    }
+    } */
 
     .center-light #header .navbar-brand .white {
         display: block
@@ -2725,7 +2726,7 @@ body.menu-open #header .navbar-toggler .navbar-toggler-icon>span:nth-child(3) {
 
 #location {
     overflow: hidden;
-    background: 0 0/cover no-repeat #0a3a3a
+    background: 0 0/cover no-repeat #FFF 
 }
 
 #location .section-image-wrapper {
@@ -2750,7 +2751,7 @@ body.menu-open #header .navbar-toggler .navbar-toggler-icon>span:nth-child(3) {
     width: 1386px;
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: 60px;
     margin: 0;
     transform-origin: right bottom
 }
