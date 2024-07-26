@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    $('#formModal').modal('show');
+    // $('#formModal').modal('show');
     document.querySelector('#formModal').addEventListener("shown.bs.modal", function (e) {
         $('#formModal').find(".inner").addClass("go");
     });
