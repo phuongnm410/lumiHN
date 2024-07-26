@@ -73,15 +73,11 @@ iframe#myVideo video {
 }
 
 a, .nav-link, .nav-item {
-  color: inherit !important; /* Sử dụng màu của phần tử cha */
   text-decoration: none !important; /* Loại bỏ gạch chân */
+  text-transform: uppercase;
 }
 
-/* Thêm kiểu khi hover nếu cần */
-a:hover, .nav-link:hover, .nav-item:hover {
-  color: inherit !important; /* Giữ nguyên màu khi hover */
-  text-decoration: underline; /* Thêm gạch chân khi hover nếu muốn */
-}
+
 
 .tongquan {
   font-family: "Montserrat";
@@ -135,14 +131,4 @@ a:hover, .nav-link:hover, .nav-item:hover {
   font-size: 20px;
 }
 
-.header-section-1 {
-  color: white;
-}
-
-.header-section-2 {
-  color: white;
-}
-
-.header-section-3 {
-  color: black;
-}/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index.css.map */
