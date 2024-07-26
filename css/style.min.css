@@ -2484,11 +2484,6 @@ body.menu-open #header .navbar-toggler .navbar-toggler-icon>span:nth-child(3) {
     background: url(../image/Logo-Lumi-Hanoi.png) center center/80% no-repeat;
     opacity: .05
 }
-
-.modal-content .form-popup .overlay span:nth-child(3) {
-    background: url(../image/vi-tri-lumi-hanoi.png) center center/contain no-repeat
-}
-
 .section-content-fitbottom {
     position: absolute;
     bottom: 30px;
@@ -3939,25 +3934,6 @@ section .bg {
     top: 0;
     height: 100vh;
     width: calc(114.056 * 100vh / 108.622 / 2)
-}
-
-section .bg:before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: url(../images/bg-icon.svg) 0 0/200% auto no-repeat;
-    opacity: .1
-}
-
-section .bg:after {
-    content: '';
-    position: absolute;
-    width: 9vw;
-    height: 9vw;
-    background: url(../images/slogan-cicle.svg) 0 0/contain no-repeat;
-    animation: 10s linear infinite circleText;
-    top: var(--d-padding)
 }
 
 section .bg.bg-right {
@@ -6872,5 +6848,8 @@ body.light .chevron:before {
     }
     .fp-viewing-tongquan {
         color: #161515 !important;
+    }
+    .fp-viewing-tiendo {
+        color: #FFF !important;
     }
 }
