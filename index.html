@@ -1,429 +1,703 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-        <title>Lumi-HN</title>
-        <link rel="stylesheet" type="text/css" href="/css/index.css" />
-        <link href="./css/bootstrap.min.css" rel="stylesheet" />
-        <link href="./css/all.min.css" rel="stylesheet" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" />
-        <link rel="stylesheet" href="./css/style.min.css?v=1.0.2" />
-        <link rel="stylesheet" id="fancybox-css" href="./css/jquery.fancybox.min.css" type="text/css" media="all" />
-        <link rel="stylesheet" id="animations-css" href="./css/animations.css" type="text/css" media="all" />
-        <link rel="stylesheet" id="fullpage-css" href="./css/jquery.fullpage.min.css" type="text/css" media="all" />
-        <link rel="stylesheet" id="swiper-css" href="./css/swiper-bundle.min.css" type="text/css" media="all" />
-        <link rel="stylesheet" href="./css/global.css" />
-        <script type="text/javascript" src="./js/jquery.min.js" id="jquery-core-js"></script>
-        <script type="text/javascript" src="./js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
-        <script type="text/javascript" src="./js/jquery.bind-first-0.2.3.min.js" id="jquery-bind-first-js"></script>
-    </head>
 
-    <body class="home-page ready light fp-viewing-tong-quan" style="overflow: hidden; height: 100%;">
-        <!-- Header -->
-        <header id="header" class="b-static animated fadeInDownShort delay-250 sticky show go">
-            <!-- Navigation -->
-            <div class="header-bottom">
-                <div class="container-fluid">
-                    <nav class="navbar navbar-light justify-content-between">
-                        <div class ="nav-item" data-menuanchor="slider"><a href="#1">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <title>Lumi-HN</title>
+    <link rel="stylesheet" type="text/css" href="/css/index.css" />
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./css/all.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" />
+    <link rel="stylesheet" href="./css/style.min.css?v=1.0.2" />
+    <link rel="stylesheet" id="fancybox-css" href="./css/jquery.fancybox.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="animations-css" href="./css/animations.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="fullpage-css" href="./css/jquery.fullpage.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="swiper-css" href="./css/swiper-bundle.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <script type="text/javascript" src="./js/jquery.min.js" id="jquery-core-js"></script>
+    <script type="text/javascript" src="./js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+    <script type="text/javascript" src="./js/jquery.bind-first-0.2.3.min.js" id="jquery-bind-first-js"></script>
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
+</head>
+
+<body class="home-page ready light fp-viewing-tong-quan" style="overflow: hidden; height: 100%;">
+    <!-- Header -->
+    <header id="header" class="b-static animated fadeInDownShort delay-250 sticky show go">
+        <!-- Navigation -->
+        <div class="header-bottom">
+            <div class="container-fluid">
+                <nav class="navbar navbar-light justify-content-between">
+                    <div class="nav-item" data-menuanchor="slider"><a href="#1">
                             <img src="./image/Logo-Lumi-Hanoi.png" alt="" />
                         </a></div>
-                        <div class ="nav-item" data-menuanchor="tongquan"><a href="#2">Tổng quan</a></div>
-                        <div class ="nav-item" data-menuanchor="vitri"><a href="#3">Vị trí</a></div>
-                        <div class ="nav-item" data-menuanchor="matbang"><a href="#4">Mặt bằng</a></div>
-                        <div class ="nav-item" data-menuanchor="tienich"><a href="#5">Tiện ích</a></div>
-                        <div class ="nav-item" data-menuanchor="tiendo"><a href="#6">Tiến độ</a></div>
-                        <div class ="nav-item" data-menuanchor="lienhe"><a href="#7">Liên hệ</a></div>
-                    </nav>
+                    <div class="nav-item" data-menuanchor="tongquan"><a href="#2">Tổng quan</a></div>
+                    <div class="nav-item" data-menuanchor="vitri"><a href="#3">Vị trí</a></div>
+                    <div class="nav-item" data-menuanchor="matbang"><a href="#4">Mặt bằng</a></div>
+                    <div class="nav-item" data-menuanchor="tienich"><a href="#5">Tiện ích</a></div>
+                    <div class="nav-item" data-menuanchor="tiendo"><a href="#6">Tiến độ</a></div>
+                    <div class="nav-item" data-menuanchor="lienhe"><a href="#7">Liên hệ</a></div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- /Header -->
+
+    <div id="fullpage" class="fp-custom">
+        <section class="animatedParent animateOnce fp-auto-height-responsive section-home-slide bg-nav section-top"
+            data-title="lumi">
+            <div class="swiper home-slide d-bg-ani" data-swiper-autoplay="2000">
+                <div class="swiper-wrapper">
+                    <a class="swiper-slide cover" style="background-image: url('./image/slider/banner.jpg');"></a>
+                    <a class="swiper-slide cover" style="background-image: url('./image/slider/banner2.jpg');"></a>
+                    <a class="swiper-slide cover" style="background-image: url('./image/slider/banner3.jpg');"></a>
                 </div>
             </div>
-        </header>
-        <!-- /Header -->
+        </section>
 
-        <div id="fullpage" class="fp-custom">
-            <section class="animatedParent animateOnce fp-auto-height-responsive section-home-slide bg-nav section-top" data-title="lumi">
-                <div class="swiper home-slide d-bg-ani" data-swiper-autoplay="2000">
-                    <div class="swiper-wrapper">
-                        <a class="swiper-slide cover" style="background-image: url('./image/slider/banner.jpg');"></a>
-                        <a class="swiper-slide cover" style="background-image: url('./image/slider/banner2.jpg');"></a>
-                        <a class="swiper-slide cover" style="background-image: url('./image/slider/banner3.jpg');"></a>
-                    </div>
-                </div>
-            </section>
-
-            <section  class="animatedParent animateOnce fp-auto-height-responsive fp-noscroll section-cover section-introduction section-introduction layout-left bg-nav section-light relative" data-title="Tổng quan">
-                <div class="bg bg-right"></div>
-                <div class="relative section-padding-top">
-                    <div class="row gutter-0 align-items-center">
-                        <div class="col-lg-6 order-lg-last">
-                            <div class="section-content-wrapper do-nicescrol">
-                                <h2 class="section-title animated revealText">
-                                    Sống cân bằng <br />
-                                    giữa đô thị phồn hoa
-                                </h2>
-                                <div class="section-content section-info animated revealText delay-250">
-                                    <p>
-                                        <strong><a href="https://grandsunlake.vn/" target="_blank">Lumi Hanoi</a></strong> là một căn hộ chung cư cao cấp do chủ đầu tư CapitaLand phát triển, những ngôi nhà tại đây được ví như là chìa khóa
-                                        cho cuộc sống và duy trì sự sống cũng tương tự như ánh sáng.
-                                    </p>
-                                </div>
-                                <a href="/gioi-thieu/" class="btn btn-default btn-detail animated revealText delay-500">Xem thêm</a>
+        <section
+            class="animatedParent animateOnce fp-auto-height-responsive fp-noscroll section-cover section-introduction section-introduction layout-left bg-nav section-light relative"
+            data-title="Tổng quan">
+            <div class="bg bg-right"></div>
+            <div class="relative">
+                <div class="row gutter-0 align-items-center">
+                    <div class="col-lg-6 order-lg-last">
+                        <div class="section-content-wrapper do-nicescrol">
+                            <h3 class="section-title animated revealText">
+                                Tổng quan dự án Lumi Hà Nội
+                            </h3>
+                            <div class="section-content section-info animated revealText delay-250">
+                                <table dir="ltr" border="1" cellspacing="0" cellpadding="0" data-sheets-root="1"
+                                    style="font-size: 14px;">
+                                    <tbody>
+                                        <tr>
+                                            <td
+                                                data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Tên dự án:&quot;}">
+                                                <span style="color: #000000; font-size: 100%;">Tên dự án:</span>
+                                            </td>
+                                            <td
+                                                data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Lumi Hanoi&quot;}">
+                                                <span style="color: #000000; font-size: 100%;">Lumi Hanoi</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td
+                                                data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Địa chỉ:&quot;}">
+                                                <span style="color: #000000; font-size: 100%;">Địa chỉ:</span>
+                                            </td>
+                                            <td
+                                                data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Mặt đường Đại Lộ Thăng Long - Q. Nam Từ Liêm - TP. Hà Nội&quot;}">
+                                                <span style="color: #000000; font-size: 100%;">Mặt đường Đại Lộ Thăng
+                                                    Long – Nam Từ Liêm – Hà Nội</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td
+                                                data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Chủ đầu tư:&quot;}">
+                                                <span style="color: #000000; font-size: 100%;">Chủ đầu tư:</span>
+                                            </td>
+                                            <td
+                                                data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Capitaland&quot;}">
+                                                <span style="color: #000000; font-size: 100%;">Capitaland</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td
+                                                data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Giai đoạn triển khai&quot;}">
+                                                <span style="color: #000000; font-size: 100%;">Giai đoạn triển
+                                                    khai</span>
+                                            </td>
+                                            <td
+                                                data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;2 giai đoạn, hiện tại chủ đầu tư đang triển khai và mở bán giai đoạn đầu tiên với 2 phân khu và 5 tòa căn hộ, cụ thể như sau:nPhân khu Sole: gồm 3 tòa Signature 1, Signature 2 và Signature 3.nnPhân khu Luna: gồm 2 tòa Signature 4 và Signature 5.&quot;}">
+                                                <span style="color: #000000; font-size: 100%;">2 giai đoạn, hiện tại chủ
+                                                    đầu tư đang triển khai và mở bán giai đoạn đầu tiên với 2 phân khu
+                                                    và 5 tòa căn hộ, cụ thể:</span>
+                                                <p></p>
+                                                <ul>
+                                                    <li><span style="color: #000000; font-size: 100%;">Phân khu Sole:
+                                                            gồm 3 tòa Signature 1, 2, 3</span></li>
+                                                    <li><span style="color: #000000; font-size: 100%;">Phân khu Luna:
+                                                            gồm 2 tòa Signature 4 và Signature 5.</span></li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td
+                                                data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Tổng diện tích:&quot;}">
+                                                <span style="color: #000000; font-size: 100%;">Tổng diện tích:</span>
+                                            </td>
+                                            <td
+                                                data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;5,6ha (4,3ha dành cho cảnh quan, tiện ích...)&quot;}">
+                                                <span style="color: #000000; font-size: 100%;">5,6ha (4,3ha dành cho
+                                                    cảnh quan, tiện ích…)</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Số tòa&quot;}">
+                                                <span style="color: #000000; font-size: 100%;">Số tòa</span>
+                                            </td>
+                                            <td
+                                                data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;9 tòa, cao từ 29 – 35 tầng&quot;}">
+                                                <span style="color: #000000; font-size: 100%;">9 tòa, cao từ 29 – 35
+                                                    tầng</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td
+                                                data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Diện tích căn hộ:&quot;}">
+                                                <span style="color: #000000; font-size: 100%;">Diện tích căn hộ:</span>
+                                            </td>
+                                            <td
+                                                data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;1PN: 42,2 m2nn2PN: 53,8 – 74,3 m2nn3PN: 81,3 – 117,8 m2nnDUPLEX: 193,2 – 211,7 m2nnPENTHOUSE: 368,3 – 377,0 m2&quot;}">
+                                                <span style="color: #000000; font-size: 100%;">1PN: 42,2 m2</span><span
+                                                    style="color: #000000; font-size: 100%;">2PN: 53,8 – 74,3
+                                                    m2</span><span style="color: #000000; font-size: 100%;">3PN: 81,3 –
+                                                    117,8 m2</span>
+                                                <p></p>
+                                                <p><span style="color: #000000; font-size: 100%;">DUPLEX: 193,2 – 211,7
+                                                        m2</span></p>
+                                                <p><span style="color: #000000; font-size: 100%;">PENTHOUSE: 368,3 –
+                                                        377,0 m2</span></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td
+                                                data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Bàn giao:&quot;}">
+                                                <span style="color: #000000; font-size: 100%;">Bàn giao:</span>
+                                            </td>
+                                            <td
+                                                data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Năm 2026&quot;}">
+                                                <span style="color: #000000; font-size: 100%;">Năm 2026</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td
+                                                data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Hình thức sở hữu:&quot;}">
+                                                <span style="color: #000000; font-size: 100%;">Hình thức sở hữu:</span>
+                                            </td>
+                                            <td
+                                                data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Sổ hồng lâu dài&quot;}">
+                                                <span style="color: #000000; font-size: 100%;">Sổ hồng lâu dài</span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="animated fadeInUpShort delay-750">
-                                <img src="https://grandsunlake.vn/wp-content/uploads/2022/06/tong-quan-3.jpg" class="w-100" alt="Sống cân bằng  giữa đô thị phồn hoa" />
-                            </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="animated fadeInUpShort delay-750">
+                            <img src="./image/tongquan.jpg" class="w-100" alt="Sống cân bằng  giữa đô thị phồn hoa" />
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section class="animatedParent animateOnce fp-auto-height-responsive fp-noscroll section-location center-light d-bg-ani dark" data-title="Vị trí dự án">
-                <div class="section-content d-block d-lg-none">
-                    <h2 class="section-title animated revealText">VỊ TRÍ CHIẾN LƯỢC</h2>
-                    <div class="section-info animated revealText delay-250">
-                        <p>
-                            <strong><a href="https://grandsunlake.vn/" target="_blank" style="color: #fff;"> Lumi Hanoi </a></strong>tọa lạc tại Mặt tiền Đại Lộ Thăng Long, Phường Tây Mỗ, Quận Nam Từ Liêm, TP Hà Nội, một trung tâm mới sôi
-                            động nhất của Thủ Đô
-                        </p>
-                    </div>
-                    <a class="btn btn-default btn-detail animated revealText delay-500" href="/vi-tri/">Xem thêm</a>
-                </div>
-
-                <div class="section-content-inner cover">
-                    <div class="section-image-wrapper div_zindex">
-                        <div class="section-image text-center d-block" data-w="1386" data-h="810">
-                            <img src="./image/vi-tri-lumi-hanoi.png" />
-                        </div>
-                    </div>
-
-                    <div class="section-content">
-                        <div class="">
-                            <div class="d-none d-lg-block">
-                                <h2 class="section-title animated revealText">VỊ TRÍ CHIẾN LƯỢC</h2>
-                                <div class="section-info animated revealText delay-250">
-                                    <p>
-                                        <strong><a href="https://grandsunlake.vn/" target="_blank" style="color: #fff;"> Lumi Hanoi</a></strong> tọa lạc tại Mặt tiền Đại Lộ Thăng Long, Phường Tây Mỗ, Quận Nam Từ Liêm, TP Hà Nội, một trung
-                                        tâm mới sôi động nhất của Thủ Đô.
-                                    </p>
-                                </div>
-                                <a class="btn btn-default btn-detail animated revealText delay-500" href="/vi-tri/">Xem thêm</a>
+        <section
+            class="animatedParent animateOnce fp-auto-height-responsive fp-noscroll section-location center-light d-bg-ani dark"
+            data-title="Vị trí dự án">
+            <div class="bg bg-right"></div>
+            <div class="relative">
+                <div class="row gutter-0 align-items-center">
+                    <div class="col-lg-4">
+                        <div class="section-content-wrapper"
+                            style="overflow: hidden; outline: none; padding-left: 30px;padding-right: 30px;">
+                            <h2 class="section-title animated revealText go">
+                                VỊ TRÍ CHIẾN LƯỢC </h2>
+                            <div class="section-content section-info animated revealText delay-250 go">
+                                <p>Vị trí Lumi Hà Nội nằm tại khu vực được quy hoạch bài bản bậc nhất tại phía tây Hà
+                                    Nội, trung tâm mới sôi động bậc nhất Thủ Đô giúp kết nối nhanh chóng tới các khu vực
+                                    trong trung tâm thành phố.<br /><br /> Trong tương lai, việc kết nối tới các khu vực
+                                    trong Thủ Đô sẽ trở nên thuận tiện hơn khi tuyến Metro số 5, 6 và 7 được đi vào hoạt
+                                    động. Đây hứa hẹn là một trong những ưu điểm vượt trội mà dự án Lumi Hanoi
+                                    Capitaland đem lại</p>
+                                <p>
+                                <ul>
+                                    <li>5 phút tới Trung tâm hội nghị Quốc gia</li>
+                                    <li> 7 phút tới Big C Thăng Long</li>
+                                    <li>10 phút đến đường Trần Duy Hưng</li>
+                                    <li>10 phút tới Sân vận động Mỹ Đình/đường đua F1</li>
+                                    <li>25 phút đến trung tâm thành phố.</li>
+                                    <li> 40 phút đến sân bay Nội Bài.</li>
+                                </ul>
+                                </p>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
-
-            <section class="animatedParent animateOnce fp-auto-height-responsive fp-noscroll section-cover section-masterplain-info bg-nav center-light" style="background-image: url('./image/matbangtienich.jpg');" data-title="Mặt bằng tiện ích" >
-                <div class="container-fluid d-block d-xl-none">
-                    <div class="section-padding-top pb-0">
-                        <h2 class="section-title animated revealText"></h2>
+                    <div class="col-lg-8">
+                        <div class="animated fadeInUpShort delay-750 go">
+                            <img src="/image/vi-tri-lumi-hanoi.png" class="w-100"
+                                alt="PHONG CÁCH SỐNG  THỊNH VƯỢNG VINH HOA">
+                        </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section  class="animatedParent animateOnce fp-noscroll fp-auto-height-responsive section-utilities-slide section-light" data-title="Tiện ích">
-                <div class="bg bg-left"></div>
-                <div class="relative section-padding-top">
-                    <div class="row gutter-0 align-items-center h-100">
-                        <div class="col-lg-5">
-                            <div class="section-content-wrapper">
-                                <h2 class="section-title animated revealText delay-250">
-                                    80+ TIỆN ÍCH ĐỘC BẢN
-                                </h2>
-                                <div class="section-info animated revealText delay-500">
-                                    <p>Các đặc điểm mang tính bền vững của dự án bao gồm 4,3 ha cảnh quan tươi xanh, hệ thống thu gom nước mưa, hồ sinh thái, hệ thống sinh cảnh cũng như khu vực trạm sạc cho xe điện và xe đạp.</p>
-                                </div>
-                                <a class="btn btn-default btn-detail animated revealText delay-750" href="/tien-ich/">Xem thêm</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-7 relative">
-                            <div class="swiper utilities-slide overflow-hide d-bg-ani" data-swiper-autoplay="2000">
-                                <div class="swiper-wrapper">
-                                    <a data-fancybox="utilities-slide" href="https://grandsunlake.vn/wp-content/uploads/2022/06/tien-ich-album-7-1.jpg" class="d-block swiper-slide cover">
-                                        <div class="slide-content cover" style="background-image: url('./image/tien-ich/1.jpg');"></div>
-                                    </a>
-                                    <a data-fancybox="utilities-slide" href="https://grandsunlake.vn/wp-content/uploads/2022/06/thu-vien-tien-ich-11.jpg" class="d-block swiper-slide cover">
-                                        <div class="slide-content cover" style="background-image: url('./image/tien-ich/2.jpg');"></div>
-                                    </a>
-                                    <a data-fancybox="utilities-slide" href="https://grandsunlake.vn/wp-content/uploads/2022/06/tien-ich-album-6.jpg" class="d-block swiper-slide cover">
-                                        <div class="slide-content cover" style="background-image: url('./image/tien-ich/3.jpg');"></div>
-                                    </a>
-                                    <a data-fancybox="utilities-slide" href="https://grandsunlake.vn/wp-content/uploads/2022/06/tien-ich-album-1.jpg" class="d-block swiper-slide cover">
-                                        <div class="slide-content cover" style="background-image: url('./image/tien-ich/4.jpg');"></div>
-                                    </a>
-                                    <a data-fancybox="utilities-slide" href="https://grandsunlake.vn/wp-content/uploads/2022/06/tien-ich-album-3.jpg" class="d-block swiper-slide cover">
-                                        <div class="slide-content cover" style="background-image: url('./image/tien-ich/5.jpg');"></div>
-                                    </a>
-                                    <a data-fancybox="utilities-slide" href="https://grandsunlake.vn/wp-content/uploads/2022/06/tien-ich-album-2.jpg" class="d-block swiper-slide cover">
-                                        <div class="slide-content cover" style="background-image: url('./image/tien-ich/6.jpg');"></div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="">
-                                <div class="slide-control">
-                                    <div class="swiper-button-prev"></div>
+        <section
+            class="animatedParent animateOnce fp-auto-height-responsive fp-noscroll section-cover section-masterplain-info bg-nav center-light"
+            data-title="Mặt bằng tiện ích">
+            <div class="container-fluid ">
+                <div class="row">
+                    <div class="col-3">
+                        <nav class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+                            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
+                                role="tab" aria-controls="v-pills-home" aria-selected="true">Mặt bằng tầng</a>
+                            <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
+                                role="tab" aria-controls="v-pills-profile" aria-selected="false">Mặt bằng căn hộ</a>
+                        </nav>
+                    </div>
+                    <div class="col-9">
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                                aria-labelledby="v-pills-home-tab">
+                              
+                                <div class="swiper-container matbangtang">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img
+                                                src="./image/mat-bang-tang/mat-bang-lumi-hanoi-2-12.jpg" alt="Slide 3">
+                                        </div>
+                                        <div class="swiper-slide"><img
+                                                src="./image/mat-bang-tang/mat-bang-lumi-hanoi-13.jpg" alt="Slide 2">
+                                        </div>
+                                        <div class="swiper-slide"><img
+                                                src="./image/mat-bang-tang/mat-bang-lumi-hanoi-18-19.jpg" alt="Slide 3">
+                                        </div>
+
+                                        <div class="swiper-slide"><img
+                                                src="./image/mat-bang-tang/mat-bang-lumi-hanoi-25-27.jpg" alt="Slide 3">
+                                        </div>
+                                    
+                                    </div>
+                                   
+                                    <div class="swiper-pagination"></div>
+                                    
                                     <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
                                 </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                aria-labelledby="v-pills-profile-tab">
+                            
+                                <div class="swiper-container matbangcanho">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img
+                                                src="./image/mat-bang-can-ho/can-1PN.png">
+                                        </div>
+                                        <div class="swiper-slide"><img
+                                                src="./image/mat-bang-can-ho/can-2PN-lon.png">
+                                        </div>
+                                        <div class="swiper-slide"><img
+                                                src="./image/mat-bang-can-ho/can-2PN-nho.png">
+                                        </div>
+                                        <div class="swiper-slide"><img
+                                                src="./image/mat-bang-can-ho/can-2PN-vua.png">
+                                        </div>
+                                        <div class="swiper-slide"><img
+                                            src="./image/mat-bang-can-ho/can-3PN-lon.png">
+                                        </div>
+                                        <div class="swiper-slide"><img
+                                            src="./image/mat-bang-can-ho/can-3PN-nho.png">
+                                        </div>
+                                    </div>
+                                   
+                                    <div class="swiper-pagination"></div>
+                                    
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                </div>
+                            
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+           
+        </section>
 
-            <section
-                class="animatedParent animateOnce fp-auto-height-responsive fp-noscroll section-cover section-masterplain-info bg-nav center-light"
-                data-anchor="tiendo-thanhtoan"
-                style="background-image: url('./image/Tien-do-thanh-toan-theo-tieu-chuan-du-an-can-ho-chung-cu-Lumi-Hanoi-CapitaLand.jpg');"
-                data-title="Tiến độ thanh toán"
-            >
-                <div class="container-fluid d-block d-xl-none">
-                    <div class="section-padding-top pb-0">
-                        <h2 class="section-title animated revealText"></h2>
-                    </div>
-                </div>
-            </section>
+        <section
+            class="animatedParent animateOnce fp-noscroll fp-auto-height-responsive section-utilities-slide section-light"
+            data-title="Tiện ích">
+            <div class="bg bg-left"></div>
+            <div class="relative section-padding-top">
+                <div class="row gutter-0 align-items-center h-100">
+                    <div class="col-lg-5">
+                        <div class="section-content-wrapper">
+                            <h2 class="section-title animated revealText delay-250">
+                                80+ TIỆN ÍCH ĐỘC BẢN
+                            </h2>
+                            <div class="section-info animated revealText delay-500">
+                                <p>Dự án Lumi Hanoi đã đặt mục tiêu đạt chứng nhận EDGE từ IFC, thành viên của Nhóm Ngân
+                                    hàng Thế giới. <br>
+                                    Các điểm mang tính bền vững của dự án bao gồm: Cảnh quan tươi xanh, Hệ thống thu gom
+                                    nước mưa, Hồ sinh thái, Hệ thống sinh cảnh, Khu vực trạm sạc cho xe điện và xe đạp.
+                                    49 tiện ích ngoài trời tại Lumi Ha Noi bao gồm:
+                                <ul>
+                                    <li> 2,4 Ha khuôn viên cảnh quan</li>
+                                    <li> Đường dạo bộ trên không 200m</li>
+                                    <li> 8 Sân thể thao
+                                    </li>
+                                    <li> 3 Bể bơi ngoài trời</li>
+                                    <li> Rạp chiếu phim</li>
+                                    <li> Công viên thú cưng</li>
 
-            <section id="footer" class="animatedParent animateOnce left-light fp-auto-height-responsive cover"  data-title="Liên hệ">
-                <div class="bg bg-left"></div>
-                <div class="footer-top section-padding-top d-flex align-items-center">
-                    <div class="container padleft">
-                        <div class="row">
-                            <div class="col-lg-7 animated fadeInRightShort order-lg-last">
-                                <div class="contact-form">
-                                    <h3 class="section-title">Đăng ký Tư vấn</h3>
-                                    <form id="form_register" class="form row register">
-                                        <div class="row">
-                                            <div class="col-12 col-lg-6">
-                                                <div class="form-group">
-                                                    <input class="form-control" name="fullname" type="text" placeholder="Họ tên (*)" required />
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-6">
-                                                <div class="form-group">
-                                                    <input
-                                                        class="form-control"
-                                                        name="phonenumber"
-                                                        type="text"
-                                                        placeholder="Điện thoại (*)"
-                                                        required
-                                                        pattern="^(?:\+84|0)(?:\d\s?){9,10}$"
-                                                        data-fv-regexp-message="Số điện thoại không hợp lệ"
-                                                    />
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="form-group">
-                                                <input class="form-control" name="email" type="email" placeholder="Email" />
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="form-group">
-                                                <button class="btn btn-primary submit" type="submit">
-                                                    <span>Đăng ký</span>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
+                                </ul>
+                                </p>
                             </div>
-                            <div class="col-lg-5 animated fadeInLeftShort mt-5 mt-lg-0">
-                                <h3 class="section-title">
-                                    <strong>
-                                        Công ty CP <br />
-                                        Tư vấn và Dịch vụ đầu tư Bất động sản <br />
-                                        Kland
-                                    </strong>
-                                </h3>
-                                <div class="contact-info">
-                                    <div class="item svg-ani-1"><i class="fa fa-map-marker-alt"></i> Email: contact@kland.vn</div>
-                                    <div class="item svg-ani-1"><i class="fa fa-building"></i>Văn phòng: Tầng 8, tòa Kailash, 82 P. Dịch Vọng Hậu, Dịch Vọng Hậu, Cầu Giấy, Hà Nội, Việt Nam</div>
-                                    <div class="item svg-ani-1"><i class="fa fa-phone-alt"></i>Điện thoại: <a href="tel:0919 79 79 68">(+84) 24.626.00016/ (+84) 24.9995.9993 68</a></div>
-                                </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-7 relative">
+                        <div class="swiper utilities-slide overflow-hide d-bg-ani" data-swiper-autoplay="2000">
+                            <div class="swiper-wrapper">
+                                <a data-fancybox="utilities-slide"
+                                    href="https://grandsunlake.vn/wp-content/uploads/2022/06/tien-ich-album-7-1.jpg"
+                                    class="d-block swiper-slide cover">
+                                    <div class="slide-content cover"
+                                        style="background-image: url('./image/tien-ich/1.jpg');"></div>
+                                </a>
+                                <a data-fancybox="utilities-slide"
+                                    href="https://grandsunlake.vn/wp-content/uploads/2022/06/thu-vien-tien-ich-11.jpg"
+                                    class="d-block swiper-slide cover">
+                                    <div class="slide-content cover"
+                                        style="background-image: url('./image/tien-ich/2.jpg');"></div>
+                                </a>
+                                <a data-fancybox="utilities-slide"
+                                    href="https://grandsunlake.vn/wp-content/uploads/2022/06/tien-ich-album-6.jpg"
+                                    class="d-block swiper-slide cover">
+                                    <div class="slide-content cover"
+                                        style="background-image: url('./image/tien-ich/3.jpg');"></div>
+                                </a>
+                                <a data-fancybox="utilities-slide"
+                                    href="https://grandsunlake.vn/wp-content/uploads/2022/06/tien-ich-album-1.jpg"
+                                    class="d-block swiper-slide cover">
+                                    <div class="slide-content cover"
+                                        style="background-image: url('./image/tien-ich/4.jpg');"></div>
+                                </a>
+                                <a data-fancybox="utilities-slide"
+                                    href="https://grandsunlake.vn/wp-content/uploads/2022/06/tien-ich-album-3.jpg"
+                                    class="d-block swiper-slide cover">
+                                    <div class="slide-content cover"
+                                        style="background-image: url('./image/tien-ich/5.jpg');"></div>
+                                </a>
+                                <a data-fancybox="utilities-slide"
+                                    href="https://grandsunlake.vn/wp-content/uploads/2022/06/tien-ich-album-2.jpg"
+                                    class="d-block swiper-slide cover">
+                                    <div class="slide-content cover"
+                                        style="background-image: url('./image/tien-ich/6.jpg');"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="slide-control">
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-        </div>
-
-        <div class="mask">
-            <div class="mask-bg">
-                <svg id="logo_vivus" class="invisible" xmlns="http://www.w3.org/2000/svg" width="114.056px" height="107.451px" viewBox="0 0 114.056 107.451" enable-background="new 0 0 114.056 107.451" xml:space="preserve">
-                    <path
-                        id="SVGID_1_"
-                        d="M67.293,14.592c0.188,0.196,0.363,0.404,0.525,0.613c3.125,2.808,5.091,6.882,5.091,11.414
-                                c0,6.95-4.619,12.822-10.956,14.701c5.342,7.737,4.727,15.489,3.421,22.249c-0.633,3.266-3.933,13.414-5.212,20.418
-                                c-1.004,6.424-0.209,16.458,10.767,17.185c-4.835-0.815-9.05-4.667-8.182-13.536c0.714-7.306,7.192-16.828,10.31-23.569
-                                c1.791-3.858,3.475-7.501,4.72-11.003C82.613,39.441,82.693,21.757,70.781,0C68.485,3.649,66.814,8.686,67.293,14.592"
-                        fill="#D9BE97"
-                    />
-
-                    <path
-                        id="SVGID_3_"
-                        d="M87.425,59.637c0.622,8.188-11.719,20.195-14.305,19.569c-1.53-0.7,0.191-4.142,0.191-4.142
-                                c-5.489,6.097-7.261,14.709-5.54,20.342c0.765-3.166,4.18-9.481,11.181-16.033c0,0,15.244-13.105,15.244-26.85
-                                C91.792,52.676,87.107,55.432,87.425,59.637"
-                        fill="#D9BE97"
-                    />
-                    <path
-                        id="SVGID_5_"
-                        d="M84.04,86.743c1.698,3.321,1.78,8.56-0.236,11.853c-4.507,7.36-11.121,8.497-11.121,8.497
-                                c1.125,0.196,2.242,0.313,3.319,0.347c13.225,0.426,19.191-11.494,21.152-15.41c4.16-8.456,11.53-11.587,11.53-11.587
-                                C90.593,80.443,84.04,86.743,84.04,86.743"
-                        fill="#D9BE97"
-                    />
-
-                    <path
-                        id="SVGID_7_"
-                        d="M104.211,92.841c-1.755-0.023-1.704,1.722-2.525,3.768c-3.026,7.541-6.859,8.873-13.594,10.372
-                                c9.189,1.641,17.494-1.013,22.226-8.033c1.384-2.053,2.651-4.213,3.738-6.499C113.887,92.71,107.207,92.882,104.211,92.841"
-                        fill="#D9BE97"
-                    />
-
-                    <path
-                        id="SVGID_9_"
-                        d="M36.278,53.064c1.247,3.502,2.93,7.145,4.722,11.003c3.117,6.741,9.596,16.263,10.309,23.569
-                                c0.869,8.869-3.347,12.721-8.182,13.536c10.977-0.727,11.772-10.761,10.768-17.185c-1.28-7.004-4.579-17.152-5.212-20.418
-                                c-1.307-6.76-1.921-14.512,3.421-22.249c-6.337-1.879-10.957-7.751-10.957-14.701c0-4.532,1.967-8.606,5.092-11.414
-                                c0.161-0.209,0.336-0.417,0.524-0.613C47.242,8.686,45.572,3.649,43.275,0C31.363,21.757,31.444,39.441,36.278,53.064"
-                        fill="#D9BE97"
-                    />
-
-                    <path
-                        id="SVGID_11_"
-                        d="M35.105,79.373c7.001,6.552,10.415,12.867,11.18,16.033c1.722-5.633-0.051-14.245-5.54-20.342
-                                c0,0,1.722,3.442,0.192,4.142C38.35,79.832,26.009,67.825,26.63,59.637c0.32-4.205-4.366-6.961-6.769-7.114
-                                C19.861,66.268,35.105,79.373,35.105,79.373"
-                        fill="#D9BE97"
-                    />
-
-                    <path
-                        id="SVGID_13_"
-                        d="M16.902,92.03c1.961,3.916,7.927,15.836,21.152,15.41c1.077-0.034,2.193-0.151,3.318-0.347
-                                c0,0-6.612-1.137-11.119-8.497c-2.017-3.293-1.935-8.532-0.237-11.853c0,0-6.552-6.3-24.645-6.3
-                                C5.371,80.443,12.742,83.574,16.902,92.03"
-                        fill="#D9BE97"
-                    />
-
-                    <path
-                        id="SVGID_15_"
-                        d="M3.739,98.948c4.73,7.02,13.036,9.674,22.225,8.033c-6.735-1.499-10.567-2.831-13.593-10.372
-                                c-0.822-2.046-0.771-3.791-2.527-3.768C6.849,92.882,0.169,92.71,0,92.449C1.087,94.735,2.355,96.895,3.739,98.948"
-                        fill="#D9BE97"
-                    />
-                </svg>
             </div>
-        </div>
-        <ul id="fullpageMenu_" class="fullpage-nav b-static animated fadeIn go d-none"></ul>
+        </section>
 
-        <div class="fixed-btn bottom b-static animated fadeInUpShort go">
-            <div class="fixed-social-btn">
-                <a class="btn-360 d-none d-xl-flex" href="#" target="_blank" rel="noopener"><i class="fal fa-cube"></i> <span>View 360°</span></a>
+        <section
+            class=" animatedParent animateOnce fp-noscroll  fp-auto-height-responsive section-smarthome-slide section-light layout-right"
+            data-anchor="tiendo-duan" data-title="Tiến độ dự án">
+            <div class="bg bg-left"></div>
+            <div class="relative">
+                <div class="row gutter-0 align-items-center h-100  ">
+                    <div class="col-lg-6  ">
+                        <div class="section-content-wrapper">
+                            <h2 class="section-title animated revealText">
+                               TIẾN ĐỘ HIỆN TẠI 2023</h2>
+                            <div class="section-info animated revealText delay-250">
+                                <p>Hiện tại, dự án Grand Sunlake đang nằm trong giai đoạn đẩy nhanh tiến độ
+                                    thi công để có thể bàn giao nhà cho khách hàng đúng cam kết của chủ đầu tư.
+                                    <br/><br/>
+                                    Grand Sunlake đã triển khai thi công đến tầng 28 tòa tháp 50 Grand Lake View, và
+                                    tầng 27 tòa tháp 45 Grand City View. Các hoạt động tích cực tại dự án tạo nên sự tin
+                                    tưởng cho những khách hàng quan tâm đến dự án. Từ đó thấy được sự chuyên nghiệp và
+                                    đáng tin cậy của chủ đầu tư.
+                                    <br/><br/>
+                                    Bên cạnh đó, công tác thi công hoàn thiện dự án cũng đang được gấp rút tiến hành.
+                                    Trước đó, ngày 1/12/2023, Công ty CP Tập Đoàn Thăng Long VN – Chủ đầu dự án đã ký
+                                    kết gói thầu “Thi công hoàn thiện dự án Grand SunLake” với Nhà thầu thi công Vạn Lộc
+                                    Construction, đơn vị tư vấn giám sát Delta.
+                                    <br/><br/>
+                                    Ngoài việc đảm bảo tiến độ xây dựng, Grand Sunlake cũng chú trọng đến việc cung cấp
+                                    các tiện ích và dịch vụ đa dạng cho cư dân. Các tiện ích cao cấp bao gồm hồ bơi, khu
+                                    vui chơi, phòng gym, thư viện, và nhiều tiện ích khác sẽ tạo ra một môi trường sống
+                                    thú vị và tiện nghi cho cư dân của dự án.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="section-slide  ">
+                            <div class="overflow-hide">
+                                <div class="animated scaleOutPic">
+                                    <div class="swiper smarthome-slide  d-bg-ani" data-swiper-autoplay="2000">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide contain"
+                                                style="background-image:url('/image/tiendo-duan/Hinh-tien-do-GSL-26.12-1-2048x1152.png')">
+                                            </div>
+                                            <div class="swiper-slide contain"
+                                                style="background-image:url('/image/tiendo-duan/Hinh-tien-do-GSL-26.12-15-2048x1152.png')">
+                                            </div>
+                                            <div class="swiper-slide contain"
+                                                style="background-image:url('/image/tiendo-duan/Hinh-tien-do-GSL-26.12-17-2048x1151.png')">
+                                            </div>
+                                            <div class="swiper-slide contain"
+                                                style="background-image:url('/image/tiendo-duan/Hinh-tien-do-GSL-26.12-2-2048x1152.png')">
+                                            </div>
+                                            <div class="swiper-slide contain"
+                                                style="background-image:url('/image/tiendo-duan/Hinh-tien-do-GSL-26.12-5-2048x1152.png')">
+                                            </div>
+                                            <div class="swiper-slide contain"
+                                                style="background-image:url('/image/tiendo-duan/Hinh-tien-do-GSL-26.12-9-2048x1152.png')">
+                                            </div>
+                                        </div>
 
-                <a class="d-none d-xl-flex" href="https://www.facebook.com/kland.vn" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="slide-control ">
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-
-        <div class="fixed-scroll-downs b-static animated fadeIn go">
-            <span>scroll down</span>
-            <div class="scrollLine"></div>
-        </div>
-
-        <div class="modal fade modal-form-popup" tabindex="-1" id="formModal" data-bs-backdrop="static" data-bs-keyboard="false">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content div_zindex d-bg-ani">
-                    <div class="bg animated fadeIn delay-250"></div>
-                    <div class="modal-body">
-                        <a class="close close-modal" href="javascript:void(0)" data-bs-dismiss="modal"></a>
-                        <div class="form-popup-modal">
-                            <div class="form-popup bg-rotate animated fadeIn delay-250">
-                                <div class="inner animated fadeInUpShort delay-500">
-                                    <h3>
-                                        NHẬN ƯU ĐÃI <br />
-                                        & CSBH TỪ KLAND
-                                    </h3>
-
-                                    <form id="form_register_popup" class="form register">
-                                        <div class="form-group">
-                                            <input class="form-control" name="fullname" type="text" placeholder="Họ tên (*)" required />
+        </section>
+        <section id="footer" class="animatedParent animateOnce left-light fp-auto-height-responsive cover"
+            data-title="Liên hệ">
+            <div class="bg bg-left"></div>
+            <div class="footer-top section-padding-top d-flex align-items-center">
+                <div class="container padleft">
+                    <div class="row">
+                        <div class="col-lg-7 animated fadeInRightShort order-lg-last">
+                            <div class="contact-form">
+                                <h3 class="section-title">Đăng ký Tư vấn</h3>
+                                <form id="form_register" class="form row register">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-6">
+                                            <div class="form-group">
+                                                <input class="form-control" name="fullname" type="text"
+                                                    placeholder="Họ tên (*)" required />
+                                            </div>
                                         </div>
-                                        <div class="form-group">
-                                            <input class="form-control" name="phonenumber" type="text" placeholder="Điện thoại (*)" required pattern="(?:\+84|0)(?:\d\s?){9,10}$" data-fv-regexp-message="Số điện thoại không hợp lệ" />
+                                        <div class="col-12 col-lg-6">
+                                            <div class="form-group">
+                                                <input class="form-control" name="phonenumber" type="text"
+                                                    placeholder="Điện thoại (*)" required
+                                                    pattern="^(?:\+84|0)(?:\d\s?){9,10}$"
+                                                    data-fv-regexp-message="Số điện thoại không hợp lệ" />
+                                            </div>
                                         </div>
+                                    </div>
+                                    <div class="col-12">
                                         <div class="form-group">
                                             <input class="form-control" name="email" type="email" placeholder="Email" />
                                         </div>
+                                    </div>
+                                    <div class="col-12">
                                         <div class="form-group">
                                             <button class="btn btn-primary submit" type="submit">
                                                 <span>Đăng ký</span>
                                             </button>
                                         </div>
-                                    </form>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 animated fadeInLeftShort mt-5 mt-lg-0">
+                            <h3 class="section-title">
+                                <strong>
+                                    Công ty CP <br />
+                                    Tư vấn và Dịch vụ đầu tư Bất động sản <br />
+                                    Kland
+                                </strong>
+                            </h3>
+                            <div class="contact-info">
+                                <div class="item svg-ani-1"><i class="fa fa-map-marker-alt"></i> Email: contact@kland.vn
                                 </div>
-                                <div class="overlay">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                </div>
+                                <div class="item svg-ani-1"><i class="fa fa-building"></i>Văn phòng: Tầng 8, tòa
+                                    Kailash, 82 P. Dịch Vọng Hậu, Dịch Vọng Hậu, Cầu Giấy, Hà Nội, Việt Nam</div>
+                                <div class="item svg-ani-1"><i class="fa fa-phone-alt"></i>Điện thoại: <a
+                                        href="tel:0919 79 79 68">(+84) 24.626.00016/ (+84) 24.9995.9993 68</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="mask">
+        <div class="mask-bg">
+            <svg id="logo_vivus" class="invisible" xmlns="http://www.w3.org/2000/svg" width="114.056px"
+                height="107.451px" viewBox="0 0 114.056 107.451" enable-background="new 0 0 114.056 107.451"
+                xml:space="preserve">
+                <path id="SVGID_1_"
+                    d="M67.293,14.592c0.188,0.196,0.363,0.404,0.525,0.613c3.125,2.808,5.091,6.882,5.091,11.414
+                                c0,6.95-4.619,12.822-10.956,14.701c5.342,7.737,4.727,15.489,3.421,22.249c-0.633,3.266-3.933,13.414-5.212,20.418
+                                c-1.004,6.424-0.209,16.458,10.767,17.185c-4.835-0.815-9.05-4.667-8.182-13.536c0.714-7.306,7.192-16.828,10.31-23.569
+                                c1.791-3.858,3.475-7.501,4.72-11.003C82.613,39.441,82.693,21.757,70.781,0C68.485,3.649,66.814,8.686,67.293,14.592"
+                    fill="#D9BE97" />
+
+                <path id="SVGID_3_" d="M87.425,59.637c0.622,8.188-11.719,20.195-14.305,19.569c-1.53-0.7,0.191-4.142,0.191-4.142
+                                c-5.489,6.097-7.261,14.709-5.54,20.342c0.765-3.166,4.18-9.481,11.181-16.033c0,0,15.244-13.105,15.244-26.85
+                                C91.792,52.676,87.107,55.432,87.425,59.637" fill="#D9BE97" />
+                <path id="SVGID_5_" d="M84.04,86.743c1.698,3.321,1.78,8.56-0.236,11.853c-4.507,7.36-11.121,8.497-11.121,8.497
+                                c1.125,0.196,2.242,0.313,3.319,0.347c13.225,0.426,19.191-11.494,21.152-15.41c4.16-8.456,11.53-11.587,11.53-11.587
+                                C90.593,80.443,84.04,86.743,84.04,86.743" fill="#D9BE97" />
+
+                <path id="SVGID_7_"
+                    d="M104.211,92.841c-1.755-0.023-1.704,1.722-2.525,3.768c-3.026,7.541-6.859,8.873-13.594,10.372
+                                c9.189,1.641,17.494-1.013,22.226-8.033c1.384-2.053,2.651-4.213,3.738-6.499C113.887,92.71,107.207,92.882,104.211,92.841"
+                    fill="#D9BE97" />
+
+                <path id="SVGID_9_"
+                    d="M36.278,53.064c1.247,3.502,2.93,7.145,4.722,11.003c3.117,6.741,9.596,16.263,10.309,23.569
+                                c0.869,8.869-3.347,12.721-8.182,13.536c10.977-0.727,11.772-10.761,10.768-17.185c-1.28-7.004-4.579-17.152-5.212-20.418
+                                c-1.307-6.76-1.921-14.512,3.421-22.249c-6.337-1.879-10.957-7.751-10.957-14.701c0-4.532,1.967-8.606,5.092-11.414
+                                c0.161-0.209,0.336-0.417,0.524-0.613C47.242,8.686,45.572,3.649,43.275,0C31.363,21.757,31.444,39.441,36.278,53.064"
+                    fill="#D9BE97" />
+
+                <path id="SVGID_11_" d="M35.105,79.373c7.001,6.552,10.415,12.867,11.18,16.033c1.722-5.633-0.051-14.245-5.54-20.342
+                                c0,0,1.722,3.442,0.192,4.142C38.35,79.832,26.009,67.825,26.63,59.637c0.32-4.205-4.366-6.961-6.769-7.114
+                                C19.861,66.268,35.105,79.373,35.105,79.373" fill="#D9BE97" />
+
+                <path id="SVGID_13_" d="M16.902,92.03c1.961,3.916,7.927,15.836,21.152,15.41c1.077-0.034,2.193-0.151,3.318-0.347
+                                c0,0-6.612-1.137-11.119-8.497c-2.017-3.293-1.935-8.532-0.237-11.853c0,0-6.552-6.3-24.645-6.3
+                                C5.371,80.443,12.742,83.574,16.902,92.03" fill="#D9BE97" />
+
+                <path id="SVGID_15_"
+                    d="M3.739,98.948c4.73,7.02,13.036,9.674,22.225,8.033c-6.735-1.499-10.567-2.831-13.593-10.372
+                                c-0.822-2.046-0.771-3.791-2.527-3.768C6.849,92.882,0.169,92.71,0,92.449C1.087,94.735,2.355,96.895,3.739,98.948"
+                    fill="#D9BE97" />
+            </svg>
+        </div>
+    </div>
+    <ul id="fullpageMenu_" class="fullpage-nav b-static animated fadeIn go d-none"></ul>
+
+    <div class="fixed-btn bottom b-static animated fadeInUpShort go">
+        <div class="fixed-social-btn">
+            <a class="btn-360 d-none d-xl-flex" href="#" target="_blank" rel="noopener"><i class="fal fa-cube"></i>
+                <span>View 360°</span></a>
+
+            <a class="d-none d-xl-flex" href="https://www.facebook.com/kland.vn" target="_blank" rel="noopener"><i
+                    class="fab fa-facebook-f"></i></a>
+        </div>
+    </div>
+
+    <div class="fixed-scroll-downs b-static animated fadeIn go">
+        <span>scroll down</span>
+        <div class="scrollLine"></div>
+    </div>
+
+    <div class="modal fade modal-form-popup" tabindex="-1" id="formModal" data-bs-backdrop="static"
+        data-bs-keyboard="false">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content div_zindex d-bg-ani">
+                <div class="bg animated fadeIn delay-250"></div>
+                <div class="modal-body">
+                    <a class="close close-modal" href="javascript:void(0)" data-bs-dismiss="modal"></a>
+                    <div class="form-popup-modal">
+                        <div class="form-popup bg-rotate animated fadeIn delay-250">
+                            <div class="inner animated fadeInUpShort delay-500">
+                                <h3>
+                                    NHẬN ƯU ĐÃI <br />
+                                    & CSBH TỪ KLAND
+                                </h3>
+
+                                <form id="form_register_popup" class="form register">
+                                    <div class="form-group">
+                                        <input class="form-control" name="fullname" type="text" placeholder="Họ tên (*)"
+                                            required />
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" name="phonenumber" type="text"
+                                            placeholder="Điện thoại (*)" required pattern="(?:\+84|0)(?:\d\s?){9,10}$"
+                                            data-fv-regexp-message="Số điện thoại không hợp lệ" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" name="email" type="email" placeholder="Email" />
+                                    </div>
+                                    <div class="form-group">
+                                        <button class="btn btn-primary submit" type="submit">
+                                            <span>Đăng ký</span>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="overlay">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="modal fade modal-form-popup" tabindex="-1" id="thanksModal" data-bs-backdrop="static" data-bs-keyboard="false">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content div_zindex d-bg-ani">
-                    <div class="bg animated fadeIn delay-250"></div>
-                    <div class="modal-body">
-                        <a class="close close-modal" href="javascript:void(0)" data-bs-dismiss="modal"></a>
-                        <div class="form-popup-modal">
-                            <div class="form-popup bg-rotate animated fadeIn delay-250">
-                                <div class="inner animated fadeInUpShort delay-500">
-                                    <h2 class="text-uppercase">Cảm ơn</h2>
-                                    <div class="form register">
-                                        <div class="form-group">
-                                            <p>Quý khách hàng đã gửi yêu cầu tư vấn dự án Grand SunLake thành công. </p>
-                                            <p>Chuyên viên tư vấn của chúng tôi sẽ phản hồi quý khách trong thời gian ngắn nhất</p>
-                                            <p>Chúng tôi xin chân thành cảm ơn!</p>
-                                        </div>
+    <div class="modal fade modal-form-popup" tabindex="-1" id="thanksModal" data-bs-backdrop="static"
+        data-bs-keyboard="false">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content div_zindex d-bg-ani">
+                <div class="bg animated fadeIn delay-250"></div>
+                <div class="modal-body">
+                    <a class="close close-modal" href="javascript:void(0)" data-bs-dismiss="modal"></a>
+                    <div class="form-popup-modal">
+                        <div class="form-popup bg-rotate animated fadeIn delay-250">
+                            <div class="inner animated fadeInUpShort delay-500">
+                                <h2 class="text-uppercase">Cảm ơn</h2>
+                                <div class="form register">
+                                    <div class="form-group">
+                                        <p>Quý khách hàng đã gửi yêu cầu tư vấn dự án Grand SunLake thành công. </p>
+                                        <p>Chuyên viên tư vấn của chúng tôi sẽ phản hồi quý khách trong thời gian ngắn
+                                            nhất</p>
+                                        <p>Chúng tôi xin chân thành cảm ơn!</p>
                                     </div>
                                 </div>
-                                <div class="overlay">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                </div>
+                            </div>
+                            <div class="overlay">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </body>
-    <script type="text/javascript" src="./js/swiper-bundle.min.js" id="swiper-js"></script>
-    <!-- <script type="text/javascript" src="./js/fullpage.min.js" id="swiper-js"></script> -->
-    <script type="text/javascript" src="./js/bootbox.min.js" id="bootbox-js"></script>
-    <script type="text/javascript" src="./js/css3-animate-it.js" id="animations-js"></script>
-    <script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="./js/jquery.fullpage.min.js" id="fullpage-js"></script>
-    <script type="text/javascript" src="./js/scrolloverflow.min.js" id="fullpage_scrolloverflow-js"></script>
-    <script type="text/javascript" src="./js/jquery.nicescroll.min.js?ver=1.0.2" id="nicescroll-js"></script>
-    <script type="text/javascript" src="./js/vivus.min.js" id="vivus-js"></script>
-    <script type="text/javascript" src="./js/inlineSVG.min.js" id="inlineSVG-js"></script>
-    <script type="text/javascript" src="./js/popper.min.js"></script>
-    <script type="text/javascript" src="./js/bootstrap.bundle.min.js" id="bootstrap_bundle-js"></script>
-    <script type="text/javascript" src="./js/default.min.js" id="default-js"></script>
-    <script type="text/javascript" src="./js/index.js" id="default-js"></script>
-    <!-- <script type="text/javascript" src="./js/video-custom.js" id="video-custom-js"></script> -->
+    </div>
+</body>
+<script type="text/javascript" src="./js/swiper-bundle.min.js" id="swiper-js"></script>
+<!-- <script type="text/javascript" src="./js/fullpage.min.js" id="swiper-js"></script> -->
+<script type="text/javascript" src="./js/bootbox.min.js" id="bootbox-js"></script>
+<script type="text/javascript" src="./js/css3-animate-it.js" id="animations-js"></script>
+<script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="./js/jquery.fullpage.min.js" id="fullpage-js"></script>
+<script type="text/javascript" src="./js/scrolloverflow.min.js" id="fullpage_scrolloverflow-js"></script>
+<script type="text/javascript" src="./js/jquery.nicescroll.min.js?ver=1.0.2" id="nicescroll-js"></script>
+<script type="text/javascript" src="./js/vivus.min.js" id="vivus-js"></script>
+<script type="text/javascript" src="./js/inlineSVG.min.js" id="inlineSVG-js"></script>
+<script type="text/javascript" src="./js/popper.min.js"></script>
+<script type="text/javascript" src="./js/bootstrap.bundle.min.js" id="bootstrap_bundle-js"></script>
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/default.min.js" id="default-js"></script>
+<script type="text/javascript" src="./js/index.js" id="default-js"></script>
+<!-- <script type="text/javascript" src="./js/video-custom.js" id="video-custom-js"></script> -->
+
 </html>

@@ -747,6 +747,14 @@ textarea.form-control {
     padding-top: 5px
 }
 
+#ascrail2000-hr {
+    display: none !important;
+}
+
+#ascrail2000 {
+    display: none !important;
+}
+
 table {
     margin: 0 0 30px;
     width: 100%
@@ -755,7 +763,10 @@ table {
 table td,
 table th {
     border: 1px solid #ccc;
-    padding: 18px
+    padding: .5em;
+    text-align: left;
+    line-height: 1.3;
+    font-size: .9em;
 }
 
 table td img,
@@ -990,9 +1001,18 @@ section {
     display: block
 }
 
+.nav-link {
+    cursor: pointer;
+}
+
+.tab-content {
+    margin-left: 200px;
+    /* adjust as needed */
+}
+
 section.dark,
 section.dark .section-title {
-    color: #fff
+    color: #1888b2;
 }
 
 section.dark .btn-default {
@@ -1065,7 +1085,11 @@ section.dark .btn-default {
     background-position: center center;
     background-repeat: no-repeat
 }
-
+.contain {
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat
+}
 .icon-logo-lb,
 .icon-logo-rb {
     position: relative
@@ -1710,7 +1734,7 @@ body.menu-open .fixed-btn.bottom {
     /* background: #111; */
 }
 
-#header .navbar .nav-item  {
+#header .navbar .nav-item {
     text-decoration: none;
     padding: 10px 15px;
     font-size: 1em;
@@ -2484,6 +2508,7 @@ body.menu-open #header .navbar-toggler .navbar-toggler-icon>span:nth-child(3) {
     background: url(../image/Logo-Lumi-Hanoi.png) center center/80% no-repeat;
     opacity: .05
 }
+
 .section-content-fitbottom {
     position: absolute;
     bottom: 30px;
@@ -2493,7 +2518,7 @@ body.menu-open #header .navbar-toggler .navbar-toggler-icon>span:nth-child(3) {
 }
 
 .section-introduction .section-content-wrapper {
-    padding-right: var(--d-padding-xl);
+    padding-right: 70px;
     padding-left: var(--d-padding)
 }
 
@@ -2520,9 +2545,10 @@ body.menu-open #header .navbar-toggler .navbar-toggler-icon>span:nth-child(3) {
         display: block
     }
 
+    /* 
     .section-introduction .section-content-wrapper {
         max-height: 65vh
-    }
+    } */
 
     .section-introduction.layout-right .section-content-wrapper {
         padding-left: var(--d-padding-xl);
@@ -3200,7 +3226,7 @@ body.menu-open #header .navbar-toggler .navbar-toggler-icon>span:nth-child(3) {
 
 .section-smarthome-slide .section-content-wrapper,
 .section-utilities-slide .section-content-wrapper {
-    padding-left: var(--d-padding-xl);
+    padding-left: 40px;
     padding-right: var(--d-padding)
 }
 
@@ -6745,7 +6771,9 @@ body.light .chevron:before {
 .animated.scaleOutPic.go {
     animation-name: scaleOutPic
 }
-
+.smarthome-slide .swiper-slide {
+    background-image: contain;
+}
 @keyframes scaleOutPic {
     0% {
         transform: scale(1.4)
@@ -6835,21 +6863,19 @@ body.light .chevron:before {
         opacity: 1;
         transform: translateY(0)
     }
-
-    .fp-viewing-tiendo-thanhtoan {
-        color: #FFF !important;
-    }
-
     .fp-viewing-lumi {
         color: #FFF !important;
     }
+
     .fp-viewing-slider {
         color: #FFF !important;
     }
+
     .fp-viewing-tongquan {
         color: #161515 !important;
     }
+
     .fp-viewing-tiendo {
-        color: #FFF !important;
+        color: #000 !important;
     }
 }

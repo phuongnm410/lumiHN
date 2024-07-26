@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // $('#formModal').modal('show');
+    $('#formModal').modal('show');
     document.querySelector('#formModal').addEventListener("shown.bs.modal", function (e) {
         $('#formModal').find(".inner").addClass("go");
     });
@@ -40,6 +40,33 @@ var swiper =new Swiper(".home-slide", {
     disableOnInteraction: true,
 });
 
+var swiper = new Swiper('.matbangtang', {
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    slidesPerView: 1,
+    spaceBetween: 30,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+
+  var swiper = new Swiper('.matbangcanho', {
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    slidesPerView: 1,
+    spaceBetween: 30,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
 
 function methodPost(api, data) {
 	fetch(api, {
