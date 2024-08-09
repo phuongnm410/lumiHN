@@ -22,6 +22,7 @@
     <script type="text/javascript" src="./js/jquery.min.js" id="jquery-core-js"></script>
     <script type="text/javascript" src="./js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
     <script type="text/javascript" src="./js/jquery.bind-first-0.2.3.min.js" id="jquery-bind-first-js"></script>
+    <link rel='stylesheet' id='fancybox-css'  href='./css/jquery.fancybox.min.css' type='text/css' media='all' />
     <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
 </head>
 
@@ -240,86 +241,71 @@
         </section>
 
         <section
-            class="animatedParent animateOnce fp-auto-height-responsive fp-noscroll section-cover section-masterplain-info bg-nav center-light"
-            data-title="Mặt bằng tiện ích">
-            <div class="container-fluid ">
-                <div class="row">
-                    <div class="col-3">
-                        <nav class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
-                            aria-orientation="vertical">
-                            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
-                                role="tab" aria-controls="v-pills-home" aria-selected="true">Mặt bằng tầng</a>
-                            <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
-                                role="tab" aria-controls="v-pills-profile" aria-selected="false">Mặt bằng căn hộ</a>
-                        </nav>
-                    </div>
-                    <div class="col-9">
-                        <div class="tab-content" id="v-pills-tabContent">
-                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                                aria-labelledby="v-pills-home-tab">
-                              
-                                <div class="swiper-container matbangtang">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide"><img
-                                                src="./image/mat-bang-tang/mat-bang-lumi-hanoi-2-12.jpg" alt="Slide 3">
-                                        </div>
-                                        <div class="swiper-slide"><img
-                                                src="./image/mat-bang-tang/mat-bang-lumi-hanoi-13.jpg" alt="Slide 2">
-                                        </div>
-                                        <div class="swiper-slide"><img
-                                                src="./image/mat-bang-tang/mat-bang-lumi-hanoi-18-19.jpg" alt="Slide 3">
-                                        </div>
-
-                                        <div class="swiper-slide"><img
-                                                src="./image/mat-bang-tang/mat-bang-lumi-hanoi-25-27.jpg" alt="Slide 3">
-                                        </div>
-                                    
-                                    </div>
-                                   
-                                    <div class="swiper-pagination"></div>
-                                    
-                                    <div class="swiper-button-next"></div>
-                                    <div class="swiper-button-prev"></div>
+        class=" animatedParent animateOnce  fp-auto-height-responsive fp-noscroll section-cover section-gallery d-bg-ani section-light cover"
+     data-title="Mặt bằng tiện ích">
+        <div class="bg bg-left"></div>
+        <div class="section-padding-top animated fadeInUp div_zindex">
+            <h2 class="section-title text-center animated fadeInUpShort">
+                MẶT BẰNG DỰ ÁN </h2>
+            <div class="items">
+                <div class="swiper gallery-slide overflow-hide d-bg-ani  " data-swiper-autoplay="2000">
+                    <div class="swiper-wrapper ">
+                        <a href="javascript:void(0)" data-target="gallery-slide-duan"
+                            class="d-inline-block swiper-slide cover trigger-fancybox">
+                            <div class="slide-content">
+                                <div class="item-thumb animation">
+                                    <img src="/image/mat-bang-tang/tong-mat-bang.jpg"
+                                        alt="Mặt bằng dự án" title="Mặt bằng dự án">
                                 </div>
+                                <h3>Mặt bằng dự án</h3>
                             </div>
-                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                                aria-labelledby="v-pills-profile-tab">
-                            
-                                <div class="swiper-container matbangcanho">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide"><img
-                                                src="./image/mat-bang-can-ho/can-1PN.png">
-                                        </div>
-                                        <div class="swiper-slide"><img
-                                                src="./image/mat-bang-can-ho/can-2PN-lon.png">
-                                        </div>
-                                        <div class="swiper-slide"><img
-                                                src="./image/mat-bang-can-ho/can-2PN-nho.png">
-                                        </div>
-                                        <div class="swiper-slide"><img
-                                                src="./image/mat-bang-can-ho/can-2PN-vua.png">
-                                        </div>
-                                        <div class="swiper-slide"><img
-                                            src="./image/mat-bang-can-ho/can-3PN-lon.png">
-                                        </div>
-                                        <div class="swiper-slide"><img
-                                            src="./image/mat-bang-can-ho/can-3PN-nho.png">
-                                        </div>
-                                    </div>
-                                   
-                                    <div class="swiper-pagination"></div>
-                                    
-                                    <div class="swiper-button-next"></div>
-                                    <div class="swiper-button-prev"></div>
+                        </a>
+                        <a href="javascript:void(0)" data-target="gallery-slide-tang"
+                            class="d-inline-block swiper-slide cover trigger-fancybox">
+                            <div class="slide-content">
+                                <div class="item-thumb animation">
+                                    <img src="./image/mat-bang-tang/mat-bang-lumi-hanoi-2-12.jpg"
+                                        alt="Mặt bằng tầng" title="Mặt bằng tầng">
                                 </div>
-                            
+                                <h3>Mặt bằng tầng</h3>
                             </div>
-                        </div>
+                        </a>
+                        <a href="javascript:void(0)" data-target="gallery-slide-canho"
+                            class="d-inline-block swiper-slide cover trigger-fancybox">
+                            <div class="slide-content">
+                                <div class="item-thumb animation">
+                                    <img src="./image/mat-bang-can-ho/can-1PN.png"
+                                        alt="Mặt bằng từng căn hộ" title="Mặt bằng từng căn hộ">
+                                </div>
+                                <h3>Mặt bằng từng căn hộ</h3>
+                            </div>
+                        </a>
                     </div>
                 </div>
+                <div class="">
+                    <div class="slide-control ">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+                <div class="item-album">
+                    <a data-fancybox="gallery-slide-duan" href="./image/mat-bang-tang/tong-mat-bang.jpg"></a>
+                    <a data-fancybox="gallery-slide-tang" href="./image/mat-bang-tang/mat-bang-lumi-hanoi-2-12.jpg"></a>
+                    <a data-fancybox="gallery-slide-tang" href="./image/mat-bang-tang//mat-bang-lumi-hanoi-13.jpg"></a>
+                    <a data-fancybox="gallery-slide-tang" href="./image/mat-bang-tang/mat-bang-lumi-hanoi-18-19.jpg"></a>
+                    <a data-fancybox="gallery-slide-tang" href="./image/mat-bang-tang/mat-bang-lumi-hanoi-25-27.jpg"></a>
+                    <a data-fancybox="gallery-slide-canho" href="./image/mat-bang-can-ho/can-1PN.png"></a>
+                    <a data-fancybox="gallery-slide-canho" href="./image/mat-bang-can-ho/can-2PN-lon.png"></a>
+                    <a data-fancybox="gallery-slide-canho" href="./image/mat-bang-can-ho/can-2PN-nho.png"></a>
+                    <a data-fancybox="gallery-slide-canho" href="./image/mat-bang-can-ho/can-2PN-vua.png"></a>
+                    <a data-fancybox="gallery-slide-canho" href="./image/mat-bang-can-ho/can-3PN-lon.png"></a>
+                    <a data-fancybox="gallery-slide-canho" href="./image/mat-bang-can-ho/can-3PN-nho.png"></a>
+                </div>
+                
             </div>
-           
-        </section>
+        </div>
+    </section>
+
 
         <section
             class="animatedParent animateOnce fp-noscroll fp-auto-height-responsive section-utilities-slide section-light"
@@ -414,25 +400,26 @@
                     <div class="col-lg-6  ">
                         <div class="section-content-wrapper">
                             <h2 class="section-title animated revealText">
-                               TIẾN ĐỘ HIỆN TẠI 2023</h2>
+                                TIẾN ĐỘ HIỆN TẠI 2023</h2>
                             <div class="section-info animated revealText delay-250">
                                 <p>Hiện tại, dự án Grand Sunlake đang nằm trong giai đoạn đẩy nhanh tiến độ
                                     thi công để có thể bàn giao nhà cho khách hàng đúng cam kết của chủ đầu tư.
-                                    <br/><br/>
+                                    <br /><br />
                                     Grand Sunlake đã triển khai thi công đến tầng 28 tòa tháp 50 Grand Lake View, và
                                     tầng 27 tòa tháp 45 Grand City View. Các hoạt động tích cực tại dự án tạo nên sự tin
                                     tưởng cho những khách hàng quan tâm đến dự án. Từ đó thấy được sự chuyên nghiệp và
                                     đáng tin cậy của chủ đầu tư.
-                                    <br/><br/>
+                                    <br /><br />
                                     Bên cạnh đó, công tác thi công hoàn thiện dự án cũng đang được gấp rút tiến hành.
                                     Trước đó, ngày 1/12/2023, Công ty CP Tập Đoàn Thăng Long VN – Chủ đầu dự án đã ký
                                     kết gói thầu “Thi công hoàn thiện dự án Grand SunLake” với Nhà thầu thi công Vạn Lộc
                                     Construction, đơn vị tư vấn giám sát Delta.
-                                    <br/><br/>
+                                    <br /><br />
                                     Ngoài việc đảm bảo tiến độ xây dựng, Grand Sunlake cũng chú trọng đến việc cung cấp
                                     các tiện ích và dịch vụ đa dạng cho cư dân. Các tiện ích cao cấp bao gồm hồ bơi, khu
                                     vui chơi, phòng gym, thư viện, và nhiều tiện ích khác sẽ tạo ra một môi trường sống
-                                    thú vị và tiện nghi cho cư dân của dự án.</p>
+                                    thú vị và tiện nghi cho cư dân của dự án.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -475,6 +462,8 @@
                 </div>
             </div>
         </section>
+
+   
         <section id="footer" class="animatedParent animateOnce left-light fp-auto-height-responsive cover"
             data-title="Liên hệ">
             <div class="bg bg-left"></div>
@@ -589,7 +578,7 @@
 
     <div class="fixed-btn bottom b-static animated fadeInUpShort go">
         <div class="fixed-social-btn">
-            <a class="zalo icon-animation" href="#" target="_blank" rel="noopener noreferrer nofollow">
+            <a class="zalo icon-animation" href="https://zalo.me/0798165555" target="_blank" rel="noopener noreferrer nofollow">
                 <div class="animated infinite icon-circle"></div>
                 <div class="animated infinite icon-circle-fill"></div>
                 <span><img src="./image/zalo.png" alt="Contact Me on Zalo"></span>
@@ -688,6 +677,7 @@
 </body>
 <script type="text/javascript" src="./js/swiper-bundle.min.js" id="swiper-js"></script>
 <!-- <script type="text/javascript" src="./js/fullpage.min.js" id="swiper-js"></script> -->
+<script type='text/javascript' src='./js/formValidation.min.js' id='formValidation-js'></script>
 <script type="text/javascript" src="./js/bootbox.min.js" id="bootbox-js"></script>
 <script type="text/javascript" src="./js/css3-animate-it.js" id="animations-js"></script>
 <script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
@@ -700,6 +690,7 @@
 <script type="text/javascript" src="./js/bootstrap.bundle.min.js" id="bootstrap_bundle-js"></script>
 <script type="text/javascript" src="./js/bootstrap.min.js"></script>
 <script type="text/javascript" src="./js/default.min.js" id="default-js"></script>
+<script type='text/javascript' src='./js/jquery.fancybox.min.js' id='fancybox-js'></script>
 <script type="text/javascript" src="./js/index.js" id="default-js"></script>
 <!-- <script type="text/javascript" src="./js/video-custom.js" id="video-custom-js"></script> -->
 

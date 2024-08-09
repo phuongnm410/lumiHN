@@ -1131,11 +1131,11 @@ section.dark .btn-default {
 }
 
 .fancybox-container .fancybox-navigation .fancybox-button--arrow_left {
-    background-image: url(../images/arrow-prev-xxl.svg)
+    background-image: url(../image/arrow-prev-xxl.svg)
 }
 
 .fancybox-container .fancybox-navigation .fancybox-button--arrow_right {
-    background-image: url(../images/arrow-next-xxl.svg)
+    background-image: url(../image/arrow-next-xxl.svg)
 }
 
 @media (max-width:991px) {
